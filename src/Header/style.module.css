@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&family=Poppins:wght@300&display=swap');
+
+body{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.header{
+    @apply flex justify-between items-center w-full h-[100px] bg-gray-600 p-[50px] font-[Poppins] text-[20px]
+}
+.line{
+    @apply w-full h-1 bg-white
+}
+.logo{
+    @apply text-white text-[30px]
+}
+.navigation{
+    @apply flex text-white
+}
+.navigation a{
+    @apply ml-[30px] cursor-pointer
+}
+/*.reg__buttons{*/
+/*    @apply flex*/
+/*}*/
+/*.signIn button{*/
+/*    @apply w-auto h-auto text-white*/
+/*}*/
+/*.signUp button{*/
+/*    @apply w-[100px] h-auto bg-white ml-[10px] rounded-[5px]*/
+/*}*/
+.main{
+    @apply w-full h-[100vh] bg-gray-600 p-[50px]
+}
+.we_can{
+    @apply flex flex-col text-6xl text-white font-[Poppins]
+}
+.bigText{
+    @apply flex flex-col font-[Poppins] mt-[15px] text-gray-300
+}
+Select{
+    @apply w-[400px] h-[50px] rounded-[10px] mt-[15px]
+}
