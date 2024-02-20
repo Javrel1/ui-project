@@ -1,52 +1,35 @@
-.container {
-    width: 100%;
-    background-color: #333;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&family=Poppins:wght@300&display=swap');
+
+body{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.header{
+    @apply flex flex-row items-center w-full h-auto bg-[#f1f1f1] p-[20px] font-[Poppins] text-[20px]
 }
-
-.logo {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+.line{
+    @apply w-full h-1 bg-white
 }
-
-.header_right {
-    display: flex;
-    align-items: center;
+/*.logo{*/
+/*    @apply flex flex-col items-center w-[65px] h-[65px]*/
+/*}*/
+/*.logo a{*/
+/*    @apply ml-[10px] font-[Poppins] text-white text-4xl font-bold*/
+/*}*/
+.navigation{
+    @apply flex w-full text-white justify-center
 }
-
-.header_right a {
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.navigation a{
+    @apply ml-[30px] cursor-pointer
 }
-
-.active {
-    font-weight: bold;
-}
-
-/* Стили для мобильных устройств */
-@media only screen and (max-width: 600px) {
-    .header_right {
-        display: none; /* Скрываем правую часть хедера на мобильных устройствах */
+@media only screen and (max-width: 768px) {
+    .logo{
+        @apply w-[40px] h-[40px]
     }
-
-    .mobile_menu {
-        display: flex;
-        flex-direction: column;
-    }
-    .mobile_menu{
-        background-color: aqua;
-    }
-    .mobile_menu a {
-        color: white;
-        text-decoration: none;
-        margin: 5px 0;
+    .logo a{
+        @apply text-[20px]
     }
 }
