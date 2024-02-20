@@ -8,7 +8,7 @@ body{
 }
 
 .header{
-    @apply flex flex-row justify-center items-center w-full h-auto bg-gray-600 pl-[50px] pr-[50px] p-[35px] font-[Poppins] text-[20px]
+    @apply flex flex-row justify-center items-center w-full h-auto bg-gray-600 pl-[150px] pr-[150px] p-[35px] font-[Poppins] text-[20px]
 }
 .line{
     @apply w-full h-1 bg-white
@@ -24,6 +24,6 @@ body{
        @apply text-[15px]
    }
     .header{
-        @apply pl-0 pr-0
+        @apply pl-[35px] pr-[35px]
     }
 }
