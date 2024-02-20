@@ -1,0 +1,15 @@
+.main{
+    @apply w-full h-[100vh] bg-gray-600 p-[50px]
+}
+.we_can{
+    @apply flex flex-col text-6xl text-white font-[Poppins]
+}
+.bigText{
+    @apply flex flex-col font-[Poppins] mt-[15px] text-gray-300
+}
+Select{
+    @apply w-[400px] h-[50px] rounded-[10px] mt-[15px]
+}
+@media only screen and (max-width: 768px) {
+
+}
