@@ -24,6 +24,6 @@ body{
        @apply text-[15px]
    }
     .header{
-        @apply p-[20px]
+        @apply pl-0 pr-0
     }
 }
