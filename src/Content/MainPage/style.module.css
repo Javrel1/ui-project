@@ -20,6 +20,9 @@ Select{
     .we_can{
         @apply text-4xl
     }
+    .getStarted button{
+        @apply w-full
+    }
 }
 .getStarted{
     @apply w-auto h-auto mt-[50px]
