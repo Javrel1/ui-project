@@ -2,7 +2,7 @@
     @apply w-full h-auto bg-gray-500 p-[30px]
 }
 .main{
-    @apply w-full h-full flex justify-center flex-col mt-[-30px] p-44
+    @apply w-full h-full flex justify-center flex-col mt-[-30px] p-28
 }
 .we{
     @apply text-[30px] text-yellow-400

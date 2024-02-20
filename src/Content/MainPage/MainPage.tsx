@@ -1,5 +1,7 @@
 import React from "react";
 import style from './style.module.css';
+import AvatarGroup from '@mui/material/AvatarGroup';
+
 function MainPage(){
     return(
         <div className={style.container}>
@@ -14,6 +16,9 @@ function MainPage(){
                     </div>
                     <div className={style.getStarted}>
                         <button>Let's Go</button>
+                    </div>
+                    <div className={style.students}>
+
                     </div>
                 </div>
         </div>
