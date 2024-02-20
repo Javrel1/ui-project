@@ -21,12 +21,12 @@ Select{
         @apply text-4xl
     }
     .getStarted button{
-        @apply w-full
+        @apply w-auto
     }
 }
 .getStarted{
     @apply w-auto h-auto mt-[50px]
 }
 .getStarted button{
-    @apply w-[400px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl
+    @apply flex justify-center items-center w-[400px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl
 }
