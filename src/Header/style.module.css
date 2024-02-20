@@ -13,14 +13,8 @@ body{
 .line{
     @apply w-full h-1 bg-white
 }
-/*.logo{*/
-/*    @apply flex flex-col items-center w-[65px] h-[65px]*/
-/*}*/
-/*.logo a{*/
-/*    @apply ml-[10px] font-[Poppins] text-white text-4xl font-bold*/
-/*}*/
 .navigation{
-    @apply flex w-full text-white justify-center
+    @apply flex w-full text-black justify-center
 }
 .navigation a{
     @apply ml-[30px] cursor-pointer
