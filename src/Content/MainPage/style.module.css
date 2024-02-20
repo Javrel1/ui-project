@@ -12,7 +12,7 @@
 }
 @media only screen and (max-width: 768px) {
     .main{
-        @apply p-[20px];
+        @apply p-[5px];
     }
     .we{
         @apply text-[15px];
@@ -22,10 +22,10 @@
     }
 }
 .getStarted{
-    @apply w-full h-auto mt-[50px]; /* Изменено на ширину 100% */
+    @apply w-full h-auto mt-[50px];
 }
 .getStarted button{
-    @apply flex justify-center items-center w-[100%] max-w-[500px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl; /* Изменено на ширину 90% и добавлено максимальную ширину */
+    @apply flex justify-center items-center w-[100%] max-w-[500px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl;
 }
 .getStarted button:hover{
     @apply bg-white text-black transition-colors;
