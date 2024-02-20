@@ -20,23 +20,23 @@ function MainPage(){
                         <a>illo, inventore omnis quo recusandae sed sit</a>
                         <a>tenetur voluptate voluptatum.</a>
                     </div>
-                    <div className={style.searchLoc}>
-                        <Box>
-                            <FormControl fullWidth>
-                                <InputLabel sx={{marginTop: '15px'}} id="demo-simple-select-label">Select City</InputLabel>
-                                <Select sx={{width: '350px', marginTop: '15px', backgroundColor: 'white'}}
-                                        labelId="demo-simple-select-label"
-                                        id="demo-simple-select"
-                                        label="Age"
-                                >
-                                    <MenuItem value={10}>Tashkent</MenuItem>
-                                    <MenuItem value={20}>Samarkand</MenuItem>
-                                    <MenuItem value={30}>Navoi</MenuItem>
-                                    <MenuItem value={30}>Bukhara</MenuItem>
-                                </Select>
-                            </FormControl>
-                        </Box>
-                    </div>
+                    {/*<div className={style.searchLoc}>*/}
+                    {/*    <Box>*/}
+                    {/*        <FormControl fullWidth>*/}
+                    {/*            <InputLabel sx={{marginTop: '15px'}} id="demo-simple-select-label">Select City</InputLabel>*/}
+                    {/*            <Select sx={{width: '350px', marginTop: '15px', backgroundColor: 'white'}}*/}
+                    {/*                    labelId="demo-simple-select-label"*/}
+                    {/*                    id="demo-simple-select"*/}
+                    {/*                    label="Age"*/}
+                    {/*            >*/}
+                    {/*                <MenuItem value={10}>Tashkent</MenuItem>*/}
+                    {/*                <MenuItem value={20}>Samarkand</MenuItem>*/}
+                    {/*                <MenuItem value={30}>Navoi</MenuItem>*/}
+                    {/*                <MenuItem value={30}>Bukhara</MenuItem>*/}
+                    {/*            </Select>*/}
+                    {/*        </FormControl>*/}
+                    {/*    </Box>*/}
+                    {/*</div>*/}
                 </div>
         </div>
     )
