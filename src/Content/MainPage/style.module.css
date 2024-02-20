@@ -2,16 +2,13 @@
     @apply w-full h-[100vh] bg-gray-500 p-[30px]
 }
 .main{
-    @apply w-full h-full flex justify-center flex-col
+    @apply w-full h-full flex justify-center flex-col mt-[-30px]
+}
+.we{
+    @apply text-[30px] text-yellow-400
 }
 .we_can{
     @apply flex flex-col text-6xl text-white font-[Poppins]
-}
-.bigText{
-    @apply flex flex-col font-[Poppins] mt-[15px] text-gray-300
-}
-Select{
-    @apply w-[600px] h-[50px] rounded-[10px] mt-[15px]
 }
 @media only screen and (max-width: 768px) {
     .main{
@@ -29,4 +26,7 @@ Select{
 }
 .getStarted button{
     @apply flex justify-center items-center w-[400px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl
+}
+.getStarted button:hover{
+    @apply bg-white text-black transition-colors
 }

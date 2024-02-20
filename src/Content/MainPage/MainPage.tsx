@@ -4,6 +4,9 @@ function MainPage(){
     return(
         <div className={style.container}>
                 <div className={style.main}>
+                    <div className={style.we}>
+                        <a>Welcome to Reazers</a>
+                    </div>
                     <div className={style.we_can}>
                         <a>We will help you find your</a>
                         <a>place in Programming</a>
