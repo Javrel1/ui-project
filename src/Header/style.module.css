@@ -8,16 +8,16 @@ body{
 }
 
 .header{
-    @apply flex flex-row items-center w-full h-auto bg-[#f1f1f1] p-[20px] font-[Poppins] text-[20px]
+    @apply flex flex-row justify-center items-center w-full h-auto bg-[#f1f1f1] p-[20px] font-[Poppins] text-[20px]
 }
 .line{
     @apply w-full h-1 bg-white
 }
 .navigation{
-    @apply flex w-full text-black justify-center
+    @apply w-[50%] flex text-black justify-between
 }
 .navigation a{
-    @apply ml-[30px] cursor-pointer
+    @apply cursor-pointer
 }
 @media only screen and (max-width: 768px) {
     .logo{
