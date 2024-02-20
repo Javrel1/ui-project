@@ -22,7 +22,7 @@
     }
 }
 .getStarted{
-    @apply w-full h-auto mt-[50px]
+    @apply w-full h-auto mt-[20px]
 }
 .getStarted button{
     @apply flex justify-center items-center w-[100%] max-w-[500px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl
