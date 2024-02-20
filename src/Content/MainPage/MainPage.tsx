@@ -13,7 +13,7 @@ function MainPage(){
                         <a>and make a career!</a>
                     </div>
                     <div className={style.getStarted}>
-                        <button>Let's Go</button>
+                        <button className="adaptive-button">Нажми меня</button>
                     </div>
                 </div>
         </div>

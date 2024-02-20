@@ -28,8 +28,20 @@
     @apply w-auto h-auto mt-[50px]
 }
 .getStarted button{
-    @apply flex justify-center items-center w-[400px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl
+    /*@apply flex justify-center items-center w-[400px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl*/
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
 .getStarted button:hover{
     @apply bg-white text-black transition-colors
+}
+@media (max-width: 600px) {
+    .adaptive-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 }
