@@ -8,7 +8,7 @@ function MainPage(){
                         <a>Welcome to Reazers</a>
                     </div>
                     <div className={style.we_can}>
-                        <a>We will help you find your</a>
+                        <a>We will help you find</a>
                         <a>place in Programming</a>
                         <a>and make a career!</a>
                     </div>
