@@ -1,8 +1,8 @@
 .container{
-    @apply w-full h-[100vh] bg-gray-500 p-[30px];
+    @apply w-full h-auto bg-gray-500;
 }
 .main{
-    @apply w-full h-full flex justify-center flex-col mt-[-30px];
+    @apply w-full h-full flex justify-center flex-col mt-[-30px]  p-[30px];
 }
 .we{
     @apply text-[30px] text-yellow-400;
