@@ -12,7 +12,7 @@
 }
 @media only screen and (max-width: 768px) {
     .main{
-        @apply p-[1px]
+        @apply p-[1px] mt-[20px]
     }
     .we{
         @apply text-[15px]
