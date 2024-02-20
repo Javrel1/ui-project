@@ -41,7 +41,9 @@
         display: flex;
         flex-direction: column;
     }
-
+    .mobile_menu{
+        background-color: aqua;
+    }
     .mobile_menu a {
         color: white;
         text-decoration: none;
