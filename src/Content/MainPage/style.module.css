@@ -11,6 +11,9 @@ Select{
     @apply w-[600px] h-[50px] rounded-[10px] mt-[15px]
 }
 @media only screen and (max-width: 768px) {
+    .main{
+        @apply p-[20px]
+    }
     .we_can{
         @apply text-4xl
     }
