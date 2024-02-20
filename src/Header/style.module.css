@@ -23,4 +23,7 @@ body{
    .navigation a{
        @apply text-[15px]
    }
+    .header{
+        @apply pl-0 pr-0
+    }
 }
