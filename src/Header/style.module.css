@@ -14,7 +14,7 @@ body{
     @apply w-full h-1 bg-white
 }
 .navigation{
-    @apply w-[50%] flex text-black justify-between
+    @apply w-full flex text-black justify-between
 }
 .navigation a{
     @apply cursor-pointer

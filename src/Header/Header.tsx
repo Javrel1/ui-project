@@ -9,6 +9,7 @@ export function Header(){
                     <a>Home</a>
                     <a>Products</a>
                     <a>Support</a>
+                    <a>Contact</a>
                 </div>
             </div>
         </div>
