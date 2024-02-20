@@ -1,59 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&family=Poppins:wght@300&display=swap');
-
-body{
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.container {
+    width: 100%;
+    background-color: #333;
 }
 
 .header {
-    width: 100%;
-    overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-.header a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
+.logo {
+    color: white;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
+    font-size: 20px;
 }
 
-.header a.logo {
-    font-size: 25px;
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.header_right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.active {
     font-weight: bold;
 }
 
-.header a:hover {
-    background-color: #ddd;
-    color: black;
-    cursor: pointer;
-}
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    .header_right {
+        display: none; /* Скрываем правую часть хедера на мобильных устройствах */
+    }
 
-.header a:active {
-    background-color: dodgerblue;
-    color: white;
-}
+    .mobile_menu {
+        display: flex;
+        flex-direction: column;
+    }
 
-.header__right {
-    float: right;
-}
-
-@media screen and (max-width: 768px) {
-
-}
-.line{
-    @apply w-full h-1 bg-white
-}
-.navigation{
-    @apply flex w-full text-white justify-center
-}
-.navigation a{
-    @apply ml-[30px] cursor-pointer
+    .mobile_menu a {
+        color: white;
+        text-decoration: none;
+        margin: 5px 0;
+    }
 }

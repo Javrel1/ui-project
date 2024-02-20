@@ -9,8 +9,11 @@ export function Header(){
                 <a className={style.logo}>CompanyLogo</a>
                 <div className={style.header_right}>
                     <a className={style.active}>Home</a>
-                    <a>Contact</a>
-                    <a>About</a>
+                    {/* Для мобильных устройств скрываем Contact и About */}
+                    <div className={style.mobile_menu}>
+                        <a>Contact</a>
+                        <a>About</a>
+                    </div>
                 </div>
             </div>
         </div>
