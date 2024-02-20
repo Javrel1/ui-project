@@ -1,5 +1,8 @@
+.container{
+    @apply w-full h-[100vh] bg-gray-500 p-[30px]
+}
 .main{
-    @apply w-full h-[100vh] bg-gray-600 p-[50px]
+    @apply w-full h-full flex justify-center flex-col
 }
 .we_can{
     @apply flex flex-col text-6xl text-white font-[Poppins]
