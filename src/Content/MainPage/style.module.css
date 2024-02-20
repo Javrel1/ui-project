@@ -1,32 +1,32 @@
 .container{
-    @apply w-full h-auto bg-gray-500 p-[30px];
+    @apply w-full h-auto bg-gray-500 p-[30px]
 }
 .main{
-    @apply w-full h-full flex justify-center flex-col mt-[-30px];
+    @apply w-full h-full flex justify-center flex-col mt-[-30px] p-44
 }
 .we{
-    @apply text-[30px] text-yellow-400;
+    @apply text-[30px] text-yellow-400
 }
 .we_can{
-    @apply flex flex-col text-6xl text-white font-[Poppins];
+    @apply flex flex-col text-6xl text-white font-[Poppins]
 }
 @media only screen and (max-width: 768px) {
     .main{
-        @apply p-[1px];
+        @apply p-[1px]
     }
     .we{
-        @apply text-[15px];
+        @apply text-[15px]
     }
     .we_can{
-        @apply text-2xl;
+        @apply text-2xl
     }
 }
 .getStarted{
-    @apply w-full h-auto mt-[50px];
+    @apply w-full h-auto mt-[50px]
 }
 .getStarted button{
-    @apply flex justify-center items-center w-[100%] max-w-[500px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl;
+    @apply flex justify-center items-center w-[100%] max-w-[500px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl
 }
 .getStarted button:hover{
-    @apply bg-white text-black transition-colors;
+    @apply bg-white text-black transition-colors
 }
