@@ -20,10 +20,7 @@ body{
     @apply cursor-pointer
 }
 @media only screen and (max-width: 768px) {
-    .logo{
-        @apply w-[40px] h-[40px]
-    }
-    .logo a{
-        @apply text-[20px]
-    }
+   .navigation a{
+       @apply text-[15px]
+   }
 }
