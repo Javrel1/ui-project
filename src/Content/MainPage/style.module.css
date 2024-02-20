@@ -8,7 +8,7 @@
     @apply flex flex-col font-[Poppins] mt-[15px] text-gray-300
 }
 Select{
-    @apply w-[400px] h-[50px] rounded-[10px] mt-[15px]
+    @apply w-[600px] h-[50px] rounded-[10px] mt-[15px]
 }
 @media only screen and (max-width: 768px) {
 

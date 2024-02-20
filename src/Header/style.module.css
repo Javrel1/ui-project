@@ -7,38 +7,53 @@ body{
     user-select: none;
 }
 
-.header{
-    @apply flex flex-row items-center w-full h-auto bg-gray-600 p-[50px] font-[Poppins] text-[20px]
+.header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+}
+
+.header a:active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header__right {
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+
 }
 .line{
     @apply w-full h-1 bg-white
-}
-.logo{
-    @apply flex flex-col items-center w-[65px] h-[65px]
-}
-.logo a{
-    @apply ml-[10px] font-[Poppins] text-white text-4xl font-bold
 }
 .navigation{
     @apply flex w-full text-white justify-center
 }
 .navigation a{
     @apply ml-[30px] cursor-pointer
-}
-/*.reg__buttons{*/
-/*    @apply flex*/
-/*}*/
-/*.signIn button{*/
-/*    @apply w-auto h-auto text-white*/
-/*}*/
-/*.signUp button{*/
-/*    @apply w-[100px] h-auto bg-white ml-[10px] rounded-[5px]*/
-/*}*/
-@media only screen and (max-width: 768px) {
-    .logo{
-        @apply w-[40px] h-[40px]
-    }
-    .logo a{
-        @apply text-[20px]
-    }
 }
