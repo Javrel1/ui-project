@@ -23,7 +23,7 @@ function MainPage(){
                             <a className={style.name}>Awards</a>
                         </div>
                         <div className={style.xd}>
-                            <a className={style.quantity}>2000+</a>
+                            <a className={style.quantity}>2k+</a>
                             <a className={style.name}>Customers</a>
                         </div>
                         <div className={style.xd}>
