@@ -21,7 +21,7 @@
         @apply text-2xl
     }
     .quantity{
-        @apply text-3xl
+        @apply text-2xl
     }
 }
 .getStarted{
