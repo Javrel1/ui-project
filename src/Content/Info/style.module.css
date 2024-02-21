@@ -21,6 +21,6 @@
         @apply p-7
     }
     .title{
-        @apply text-[15px]
+        @apply text-[20px]
     }
 }
