@@ -23,4 +23,10 @@
     .title{
         @apply text-[20px]
     }
+    .threeElements{
+        @apply flex flex-col
+    }
+    .text{
+        @apply text-[20px]
+    }
 }
