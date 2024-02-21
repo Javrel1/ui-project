@@ -18,7 +18,7 @@
 }
 @media only screen and (max-width: 768px) {
     .container{
-        @apply p-12
+        @apply p-9
     }
     .title{
         @apply text-2xl
