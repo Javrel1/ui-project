@@ -34,10 +34,10 @@
     @apply bg-white text-black transition-colors
 }
 .achievements{
-    @apply flex flex-row w-[400px] h-auto justify-between mt-[40px]
+    @apply w-[100%] max-w-[500px] flex flex-row h-auto justify-between mt-[40px]
 }
 .xd{
-    @apply flex flex-col font-[Poppins]
+    @apply flex flex-col font-[Poppins] items-center
 }
 .quantity{
     @apply text-5xl text-white
