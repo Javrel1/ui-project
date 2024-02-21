@@ -20,7 +20,7 @@
     .we_can{
         @apply text-2xl
     }
-    .quantity{
+    .quantity a{
         @apply text-[25px]
     }
 }
