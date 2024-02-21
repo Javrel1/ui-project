@@ -20,11 +20,11 @@ function MainPage(){
                     <div className={style.achievements}>
                         <div className={style.xd}>
                             <a className={style.quantity}>10+</a>
-                            <a className={style.name}>Awards</a>
+                            <a className={style.name}>Our Awards</a>
                         </div>
                         <div className={style.xd}>
                             <a className={style.quantity}>2k+</a>
-                            <a className={style.name}>Customers</a>
+                            <a className={style.name}>Happy Customers</a>
                         </div>
                         <div className={style.xd}>
                             <a className={style.quantity}>100+</a>
