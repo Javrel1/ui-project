@@ -21,7 +21,7 @@
         @apply text-2xl
     }
     .quantity{
-        @apply text-2xl
+        @apply text-[25px]
     }
 }
 .getStarted{
