@@ -17,8 +17,19 @@ function MainPage(){
                     <div className={style.getStarted}>
                         <button>Let's Go</button>
                     </div>
-                    <div className={style.students}>
-
+                    <div className={style.achievements}>
+                        <div className={style.xd}>
+                            <a className={style.quantity}>10+</a>
+                            <a className={style.name}>Awards</a>
+                        </div>
+                        <div className={style.xd}>
+                            <a className={style.quantity}>2000+</a>
+                            <a className={style.name}>Customers</a>
+                        </div>
+                        <div className={style.xd}>
+                            <a className={style.quantity}>100+</a>
+                            <a className={style.name}>Opened Groups</a>
+                        </div>
                     </div>
                 </div>
         </div>

@@ -1,5 +1,5 @@
 .container{
-    @apply w-full h-auto bg-gray-500 p-[30px]
+    @apply w-full h-[100vh] bg-gray-500 p-[30px]
 }
 .main{
     @apply w-full h-full flex justify-center flex-col mt-[-30px] p-28
@@ -22,11 +22,20 @@
     }
 }
 .getStarted{
-    @apply w-full h-auto mt-[20px]
+    @apply w-full h-auto mt-[40px]
 }
 .getStarted button{
     @apply flex justify-center items-center w-[100%] max-w-[500px] h-[50px] bg-gray-600 text-white font-[Poppins] text-3xl rounded-3xl
 }
 .getStarted button:hover{
     @apply bg-white text-black transition-colors
+}
+.achievements{
+    @apply flex flex-row w-[400px] h-auto justify-between mt-[40px]
+}
+.xd{
+    @apply flex flex-col font-[Poppins]
+}
+.quantity{
+    @apply text-5xl text-white
 }

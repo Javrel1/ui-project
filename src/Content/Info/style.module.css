@@ -1,0 +1,18 @@
+.container{
+    @apply w-full p-28
+}
+.threeElements{
+    @apply flex justify-evenly mt-[50px]
+}
+.title{
+    @apply w-full flex justify-center text-4xl font-[Poppins]
+}
+.time{
+    @apply flex flex-col items-center
+}
+.timeImg{
+    @apply w-52
+}
+.text{
+    @apply font-[Poppins] text-3xl text-[#4c5564] font-black
+}
