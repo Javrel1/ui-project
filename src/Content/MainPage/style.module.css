@@ -20,6 +20,9 @@
     .we_can{
         @apply text-2xl
     }
+    .quantity{
+        @apply text-3xl
+    }
 }
 .getStarted{
     @apply w-full h-auto mt-[40px]
