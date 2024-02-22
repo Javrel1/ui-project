@@ -19,7 +19,7 @@ export function Registration(){
                         <input placeholder={"Last Name"} type="text"/>
                     </div>
                     <div className={style.input}>
-                        <input placeholder={"Email"} type="text"/>
+                        <input placeholder={"Email"} type="email"/>
                     </div>
                     <div className={style.input}>
                         <input placeholder={"Phone Number"} type="text"/>
