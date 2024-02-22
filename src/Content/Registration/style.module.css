@@ -23,4 +23,7 @@ button{
     .title{
         @apply text-[20px]
     }
+    input, select, button{
+        @apply w-[250px] h-[65px] mt-[40px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
+    }
 }
