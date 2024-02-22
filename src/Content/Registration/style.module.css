@@ -21,7 +21,7 @@ button{
 }
 @media only screen and (max-width: 768px) {
     .forms{
-        @apply w-[380px] rounded-[25px]
+        @apply w-[360px] rounded-[25px]
     }
     .title{
         @apply text-[20px]
