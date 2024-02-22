@@ -1,7 +1,7 @@
 .container{
-    @apply w-full p-32
+    @apply w-full p-28
 }
-.threeElements{
+.fourElements{
     @apply flex justify-evenly mt-[50px]
 }
 .title{
@@ -10,7 +10,7 @@
 .time{
     @apply flex flex-col items-center
 }
-.timeImg{
+.Img{
     @apply w-52
 }
 .text{

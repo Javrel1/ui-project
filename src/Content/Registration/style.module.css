@@ -1,3 +1,18 @@
+.container{
+    @apply flex justify-center items-center w-full h-[100vh]  bg-[#fafafa]
+}
 .title{
     @apply w-full flex justify-center text-4xl font-[Poppins]
+}
+.main{
+    @apply flex flex-col justify-center
+}
+.forms{
+    @apply flex justify-center items-center flex-col w-[80%] h-[650px] bg-gray-600 rounded-tl-[100px] mt-[15px] ml-[30px]
+}
+input, select{
+    @apply w-[450px] h-[65px] mt-[40px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
+}
+select{
+    @apply cursor-pointer
 }

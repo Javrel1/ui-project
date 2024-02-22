@@ -4,6 +4,7 @@ import time from '../../sources/time.png';
 import star from '../../sources/star.png';
 import support from '../../sources/support.png';
 import skill from '../../sources/skill.png';
+import students from '../../sources/hero_top.jpg';
 
 export function Info(){
     return(
@@ -11,37 +12,41 @@ export function Info(){
             <div className={style.title}>
                 <a>Why should you choose us?</a>
             </div>
-            <div className={style.threeElements}>
-                <div className={style.time}>
-                    <div className={style.timeImg}>
-                        <img src={time}/>
+            <div className={style.fourElements}>
+                <div className={style.top}>
+                    <div className={style.time}>
+                        <div className={style.Img}>
+                            <img src={time}/>
+                        </div>
+                        <div className={style.text}>
+                            Time Saving
+                        </div>
                     </div>
-                    <div className={style.text}>
-                        Time Saving
-                    </div>
-                </div>
-                <div className={style.time}>
-                    <div className={style.timeImg}>
-                        <img src={star}/>
-                    </div>
-                    <div className={style.text}>
-                        Quality Of Education
-                    </div>
-                </div>
-                <div className={style.time}>
-                    <div className={style.timeImg}>
-                        <img src={support}/>
-                    </div>
-                    <div className={style.text}>
-                        Support
+                    <div className={style.time}>
+                        <div className={style.Img}>
+                            <img src={star}/>
+                        </div>
+                        <div className={style.text}>
+                            Quality Of Education
+                        </div>
                     </div>
                 </div>
-                <div className={style.time}>
-                    <div className={style.timeImg}>
-                        <img src={skill}/>
+                <div className={style.bottom}>
+                    <div className={style.time}>
+                        <div className={style.Img}>
+                            <img src={support}/>
+                        </div>
+                        <div className={style.text}>
+                            Support
+                        </div>
                     </div>
-                    <div className={style.text}>
-                        Experience And Ideas
+                    <div className={style.time}>
+                        <div className={style.Img}>
+                            <img src={skill}/>
+                        </div>
+                        <div className={style.text}>
+                            Experience And Ideas
+                        </div>
                     </div>
                 </div>
             </div>
