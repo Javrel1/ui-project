@@ -8,7 +8,7 @@ export function Registration(){
             <div className={style.main}>
                 <div className={style.text}>
                     <div className={style.title}>
-                        <a>Leave your details, so we can contact you!</a>
+                        <a>Leave your details for contact</a>
                     </div>
                 </div>
                 <div className={style.forms}>
