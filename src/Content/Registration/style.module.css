@@ -1,5 +1,5 @@
 .container{
-    @apply flex justify-center items-center w-full h-[100vh]  bg-[#fafafa]
+    @apply flex justify-center items-center w-full h-[100vh] bg-[#fafafa]
 }
 .title{
     @apply w-full flex justify-center text-4xl font-[Poppins]
@@ -15,6 +15,9 @@ input, select{
 }
 select{
     @apply cursor-pointer
+}
+button{
+    @apply font-[Poppins] text-xl mt-[15px] w-[200px] h-[65px] bg-red-500 rounded-[8px] text-white
 }
 @media only screen and (max-width: 768px) {
     .title{

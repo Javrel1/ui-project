@@ -25,16 +25,16 @@ export function Registration(){
                         <input placeholder={"Phone Number"} type="text"/>
                     </div>
                     <div className={style.selectCountry}>
-                        <select name="cars" id="cars">
-                            <option value="volvo">USA</option>
-                            <option value="saab">Canada</option>
-                            <option value="mercedes">International</option>
-                        </select>
-                    </div>
-                </div>
-                <div className={style.programmers}>
-                    <div className={style.programmersImg}>
-
+                        <div className={style.selectMain}>
+                            <select name="cars" id="cars">
+                                <option value="usa">USA</option>
+                                <option value="canada">Canada</option>
+                                <option value="international">International</option>
+                            </select>
+                        </div>
+                        <div className={style.button}>
+                            <button>Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>
