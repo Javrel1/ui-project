@@ -27,6 +27,6 @@ button{
         @apply text-[20px]
     }
     input, select, button{
-        @apply w-[300px] h-[60px] mt-[20px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
+        @apply w-[280px] h-[50px] mt-[20px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
     }
 }
