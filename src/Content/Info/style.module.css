@@ -29,4 +29,7 @@
     .text{
         @apply text-[20px]
     }
+    .fourElements{
+        @apply flex flex-col
+    }
 }
