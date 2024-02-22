@@ -16,3 +16,8 @@ input, select{
 select{
     @apply cursor-pointer
 }
+@media only screen and (max-width: 768px) {
+    .title{
+        @apply text-[20px]
+    }
+}
