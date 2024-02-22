@@ -8,7 +8,7 @@
     @apply flex flex-col justify-center
 }
 .forms{
-    @apply flex justify-center items-center flex-col w-full h-[650px] bg-gray-600 rounded-tl-[100px] mt-[15px]
+    @apply flex justify-center items-center flex-col w-[600px] h-[700px] bg-gray-600 rounded-tl-[100px] mt-[15px]
 }
 input, select{
     @apply w-[450px] h-[65px] mt-[40px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
@@ -21,7 +21,7 @@ button{
 }
 @media only screen and (max-width: 768px) {
     .forms{
-        @apply rounded-[25px]
+        @apply w-[400px] rounded-[25px]
     }
     .title{
         @apply text-[20px]
