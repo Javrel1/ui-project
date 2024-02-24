@@ -1,6 +1,7 @@
 import React from "react";
 import style from './style.module.css';
 
+
 export function Registration(){
     return(
         <div className={style.container}>
@@ -26,6 +27,8 @@ export function Registration(){
                             <select name="cars" id="cars">
                                 <option value="usa">USA</option>
                                 <option value="canada">Canada</option>
+                                <option value="international">Uzbekistan</option>
+                                <option value="international">Russia</option>
                                 <option value="international">International</option>
                             </select>
                         </div>

@@ -5,7 +5,7 @@
     @apply w-full flex justify-center text-4xl font-[Poppins]
 }
 .forms{
-    @apply flex justify-center items-center flex-col w-[600px] h-[700px] bg-gray-600 rounded-tl-[100px] mt-[15px]
+    @apply flex justify-center items-center flex-col w-[600px] h-[700px] bg-gray-600 rounded-tl-[100px] rounded-br-[100px] mt-[15px]
 }
 input, select{
     @apply w-[450px] h-[65px] mt-[40px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
