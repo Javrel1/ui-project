@@ -1,14 +1,8 @@
-.container{
-    @apply flex justify-center items-center w-full h-[100vh] bg-[#fafafa]
-}
-.text{
-    @apply mt-[30px]
+.main{
+    @apply flex flex-col justify-center items-center w-full h-auto bg-[#fafafa] p-7
 }
 .title{
     @apply w-full flex justify-center text-4xl font-[Poppins]
-}
-.main{
-    @apply flex flex-col justify-center
 }
 .forms{
     @apply flex justify-center items-center flex-col w-[600px] h-[700px] bg-gray-600 rounded-tl-[100px] mt-[15px]
