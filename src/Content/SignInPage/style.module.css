@@ -34,3 +34,8 @@
 .newAcc{
     @apply w-full flex justify-center
 }
+@media only screen and (max-width: 768px) {
+    .remember input{
+        @apply w-[320px]
+    }
+}
