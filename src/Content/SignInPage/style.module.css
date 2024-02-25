@@ -5,7 +5,7 @@
     @apply w-full flex justify-center text-4xl
 }
 .form{
-    @apply mt-[15px] font-[Poppins] text-[13px]
+    @apply mt-[15px] font-[Poppins] text-[13px] font-black
 }
 .form input{
     @apply w-[500px] h-[40px] bg-gray-100 text-[15px] mt-[2px] pl-[10px]
@@ -20,10 +20,16 @@
     @apply flex
 }
 .remember a{
-    @apply ml-[10px]
+    @apply ml-[10px] font-black text-[13px]
 }
 .remember input{
     @apply w-[20px] h-[20px] cursor-pointer
+}
+.forgot{
+    @apply text-[13px]
+}
+.forgot a{
+    @apply cursor-pointer
 }
 .signInButton{
     @apply mt-[10px]
@@ -32,7 +38,10 @@
     @apply w-[100px] h-[40px] rounded-3xl bg-blue-400 text-center text-white
 }
 .newAcc{
-    @apply w-full flex justify-center mt-[20px]
+    @apply w-full flex justify-center mt-[20px] text-[13px]
+}
+.newAcc a{
+    @apply cursor-pointer
 }
 @media only screen and (max-width: 768px) {
     .form input{
