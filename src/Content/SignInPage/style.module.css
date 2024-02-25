@@ -35,7 +35,7 @@
     @apply w-full flex justify-center
 }
 @media only screen and (max-width: 768px) {
-    .remember input{
+    .form input{
         @apply w-[320px]
     }
 }
