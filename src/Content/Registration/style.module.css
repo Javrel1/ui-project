@@ -7,23 +7,29 @@
 .forms{
     @apply flex justify-center items-center flex-col w-[600px] h-[700px] bg-gray-600 rounded-tl-[100px] rounded-br-[100px] mt-[15px]
 }
-input, select{
+.input input{
     @apply w-[450px] h-[65px] mt-[40px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
 }
 select{
-    @apply cursor-pointer
+    @apply w-[450px] h-[65px] mt-[40px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px] cursor-pointer
 }
 button{
     @apply font-[Poppins] text-xl mt-[15px] w-[200px] h-[65px] bg-red-500 rounded-[8px] text-white
 }
 @media only screen and (max-width: 768px) {
+    .main{
+        @apply p-7
+    }
     .forms{
         @apply w-[320px] h-[480px] rounded-[25px]
     }
     .title{
         @apply text-[20px]
     }
-    input, select, button{
+    .input input{
+        @apply w-[450px] h-[65px] mt-[40px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
+    }
+    select, button{
         @apply w-[280px] h-[50px] mt-[20px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
     }
 }

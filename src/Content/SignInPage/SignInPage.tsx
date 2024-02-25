@@ -58,9 +58,10 @@ export function SignInPage(){
                     </div>
                 </div>
                 <div className={style.other}>
-                    <div className={style.centerElements}>
+                    <div className={style.center}>
                         <div className={style.remember}>
-                            <input type="checkbox"/>
+                            <Input type={'checkbox'}/>
+                            <a>Remember me</a>
                         </div>
                         <div className={style.forgot}>
                             <a>Forgot Password?</a>
