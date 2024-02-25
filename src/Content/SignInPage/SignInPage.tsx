@@ -41,8 +41,7 @@ const InputElement = styled('input')(
 `,
 );
 export function SignInPage(){
-    return(
-        <div className={style.container}>
+    return <div className={style.container}>
             <div className={style.main}>
                 <div className={style.title}>
                     <a>Welcome Back!</a>
@@ -76,5 +75,4 @@ export function SignInPage(){
                 </div>
             </div>
         </div>
-    )
 }

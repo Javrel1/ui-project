@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&family=Poppins:wght@300&display=swap');
 
-/*body{*/
-/*    -moz-user-select: none;*/
-/*    -webkit-user-select: none;*/
-/*    -ms-user-select: none;*/
-/*    user-select: none;*/
-/*}*/
-
 .header{
     @apply flex flex-row justify-center items-center w-full h-auto bg-gray-600 pl-[35px] pr-[35px] p-[35px] font-[Poppins] text-[20px]
 }
-.line{
-    @apply w-full h-1 bg-white
+.logIn{
+    @apply w-[150px] h-[50px] flex justify-center items-center cursor-pointer
+}
+.logIn:hover{
+    @apply text-yellow-400 duration-75
+}
+.apply{
+    @apply w-[150px] h-[50px] flex justify-center items-center rounded-2xl border-[1px] border-gray-400 cursor-pointer
+}
+.apply:hover{
+    @apply border-white
 }
 .navigation{
-    @apply w-full flex text-white justify-between
+    @apply w-full flex text-white justify-end
 }
 .navigation a{
     @apply cursor-pointer
