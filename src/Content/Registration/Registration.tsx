@@ -11,16 +11,16 @@ export function Registration(){
                     </div>
                 <div className={style.forms}>
                     <div className={style.input}>
-                        <input placeholder={"First Name"} type="text"/>
+                        <input id={"input"} placeholder={"First Name"} type="text"/>
                     </div>
                     <div className={style.input}>
-                        <input placeholder={"Last Name"} type="text"/>
+                        <input id={"input"} placeholder={"Last Name"} type="text"/>
                     </div>
                     <div className={style.input}>
-                        <input placeholder={"Email"} type="email"/>
+                        <input id={"input"} placeholder={"Email"} type="email"/>
                     </div>
                     <div className={style.input}>
-                        <input placeholder={"Phone Number"} type="text"/>
+                        <input id={"input"} placeholder={"Phone Number"} type="text"/>
                     </div>
                     <div className={style.selectCountry}>
                         <div className={style.selectMain}>

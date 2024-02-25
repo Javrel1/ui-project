@@ -1,5 +1,5 @@
 .container{
-    @apply w-full p-28
+    @apply w-full p-10
 }
 .fourElements{
     @apply flex justify-evenly mt-[50px]
@@ -11,7 +11,7 @@
     @apply flex flex-col items-center
 }
 .Img{
-    @apply w-52
+    @apply w-52 mt-[20px]
 }
 .text{
     @apply font-[Poppins] text-3xl text-[#4c5564] font-black mt-[10px]

@@ -1,6 +1,5 @@
 import React from "react";
 import style from './style.module.css';
-import AvatarGroup from '@mui/material/AvatarGroup';
 
 function MainPage(){
     return(
