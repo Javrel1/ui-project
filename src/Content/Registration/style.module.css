@@ -26,10 +26,10 @@ button{
     .title{
         @apply text-[20px]
     }
-    /*.input input{*/
-    /*    @apply w-[450px] h-[65px] mt-[40px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]*/
-    /*}*/
-    input, select, button{
+    .input input{
+        @apply w-[280px] h-[50px] mt-[20px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
+    }
+    select, button{
         @apply w-[280px] h-[50px] mt-[20px] font-[Poppins] pl-[10px] font-black text-xl rounded-[8px]
     }
 }
