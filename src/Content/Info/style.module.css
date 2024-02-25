@@ -11,7 +11,7 @@
     @apply flex flex-col items-center
 }
 .Img{
-    @apply w-52 mt-[20px]
+    @apply w-52 mt-[20px];
 }
 .text{
     @apply font-[Poppins] text-3xl text-[#4c5564] font-black mt-[10px]

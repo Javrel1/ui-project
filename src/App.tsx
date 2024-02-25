@@ -3,6 +3,7 @@ import {Header} from "./Header/Header";
 import MainPage from "./Content/MainPage/MainPage";
 import {Info} from "./Content/Info/Info";
 import {Registration} from "./Content/Registration/Registration";
+import {SignInPage} from "./Content/SignInPage/SignInPage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <MainPage/>
         <Info/>
         <Registration/>
+        <SignInPage/>
     </div>
   );
 }

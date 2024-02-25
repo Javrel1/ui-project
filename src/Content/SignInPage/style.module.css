@@ -1,0 +1,30 @@
+.container{
+    @apply w-full h-[100vh] flex justify-center items-center
+}
+.title{
+    @apply w-full flex justify-center text-4xl font-[Poppins]
+}
+.form{
+    @apply mt-[15px] font-[Poppins] text-[13px]
+}
+.form input{
+    @apply w-[500px] h-[40px] bg-gray-100 text-[15px] mt-[2px] pl-[10px] font-[Poppins]
+}
+.centerElements{
+    @apply mt-[15px] flex justify-between
+}
+.centerElements a{
+    @apply cursor-pointer
+}
+.remember input{
+    @apply w-[20px] h-[20px] cursor-pointer
+}
+.signInButton{
+    @apply mt-[10px]
+}
+.signInButton button{
+    @apply w-[100px] h-[40px] rounded-3xl bg-blue-400 text-center font-[Poppins] text-white
+}
+.newAcc{
+    @apply w-full flex justify-center mt-[50px]
+}

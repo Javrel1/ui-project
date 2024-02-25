@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&family=Poppins:wght@300&display=swap');
 
-body{
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
+/*body{*/
+/*    -moz-user-select: none;*/
+/*    -webkit-user-select: none;*/
+/*    -ms-user-select: none;*/
+/*    user-select: none;*/
+/*}*/
 
 .header{
     @apply flex flex-row justify-center items-center w-full h-auto bg-gray-600 pl-[35px] pr-[35px] p-[35px] font-[Poppins] text-[20px]
