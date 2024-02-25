@@ -1,14 +1,14 @@
 .container{
-    @apply w-full h-[100vh] flex justify-center items-center
+    @apply w-full h-[100vh] flex justify-center items-center font-[Poppins]
 }
 .title{
-    @apply w-full flex justify-center text-4xl font-[Poppins]
+    @apply w-full flex justify-center text-4xl
 }
 .form{
     @apply mt-[15px] font-[Poppins] text-[13px]
 }
 .form input{
-    @apply w-[500px] h-[40px] bg-gray-100 text-[15px] mt-[2px] pl-[10px] font-[Poppins]
+    @apply w-[500px] h-[40px] bg-gray-100 text-[15px] mt-[2px] pl-[10px]
 }
 .center{
     @apply mt-[15px] flex justify-between
@@ -29,10 +29,10 @@
     @apply mt-[10px]
 }
 .signInButton button{
-    @apply w-[100px] h-[40px] rounded-3xl bg-blue-400 text-center font-[Poppins] text-white
+    @apply w-[100px] h-[40px] rounded-3xl bg-blue-400 text-center text-white
 }
 .newAcc{
-    @apply w-full flex justify-center
+    @apply w-full flex justify-center mt-[20px]
 }
 @media only screen and (max-width: 768px) {
     .form input{
