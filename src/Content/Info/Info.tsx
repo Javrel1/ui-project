@@ -4,7 +4,6 @@ import time from '../../sources/time.png';
 import star from '../../sources/star.png';
 import support from '../../sources/support.png';
 import skill from '../../sources/skill.png';
-import students from '../../sources/hero_top.jpg';
 
 export function Info(){
     return(

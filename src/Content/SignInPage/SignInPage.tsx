@@ -40,7 +40,7 @@ const InputElement = styled('input')(
   }
 `,
 );
-export function SignInPage(){
+export function SignIn(){
     return <div className={style.container}>
             <div className={style.main}>
                 <div className={style.title}>

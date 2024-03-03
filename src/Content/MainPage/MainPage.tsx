@@ -6,7 +6,7 @@ function MainPage(){
         <div className={style.container}>
                 <div className={style.main}>
                     <div className={style.we}>
-                        <a>Welcome to Reazers!</a>
+                        <a>Welcome!</a>
                     </div>
                     <div className={style.we_can}>
                         <a>We will help you find</a>
